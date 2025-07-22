@@ -22,12 +22,14 @@ file(GLOB_RECURSE SRC_FILES CONFIGURE_DEPENDS
     src/*.cpp
 )
 
+add_subdirectory(tests)
+
 add_executable(
-    SabreCompiler 
+    sabrec 
     ${SRC_FILES} 
     # ${BISON_SabreParser_OUTPUTS}
     ${FLEX_SabreScanner_OUTPUTS}
 )
 
-target_include_directories(SabreCompiler PRIVATE ${CMAKE_BINARY_DIR})
+target_include_directories(sabrec PRIVATE ${CMAKE_BINARY_DIR})
 

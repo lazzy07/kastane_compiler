@@ -537,7 +537,8 @@ YY_DECL
 	{
 #line 8 "/home/lazzy07/projects/sabre_compiler/src/lexer/Lexer.l"
 
-#line 541 "/home/lazzy07/projects/sabre_compiler/src/lexer/Lexer.cpp"
+
+#line 542 "/home/lazzy07/projects/sabre_compiler/src/lexer/Lexer.cpp"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -596,30 +597,30 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 9 "/home/lazzy07/projects/sabre_compiler/src/lexer/Lexer.l"
+#line 10 "/home/lazzy07/projects/sabre_compiler/src/lexer/Lexer.l"
 { printf("Hello found!\n"); };
 	YY_BREAK
 case 2:
 /* rule 2 can match eol */
 YY_RULE_SETUP
-#line 10 "/home/lazzy07/projects/sabre_compiler/src/lexer/Lexer.l"
+#line 11 "/home/lazzy07/projects/sabre_compiler/src/lexer/Lexer.l"
 ; // skip whitespace
 	YY_BREAK
 case YY_STATE_EOF(INITIAL):
-#line 11 "/home/lazzy07/projects/sabre_compiler/src/lexer/Lexer.l"
+#line 12 "/home/lazzy07/projects/sabre_compiler/src/lexer/Lexer.l"
 { printf("EOF\n"); };
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 12 "/home/lazzy07/projects/sabre_compiler/src/lexer/Lexer.l"
+#line 13 "/home/lazzy07/projects/sabre_compiler/src/lexer/Lexer.l"
 { printf("Other: %s\n", yytext); };
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 14 "/home/lazzy07/projects/sabre_compiler/src/lexer/Lexer.l"
+#line 15 "/home/lazzy07/projects/sabre_compiler/src/lexer/Lexer.l"
 ECHO;
 	YY_BREAK
-#line 623 "/home/lazzy07/projects/sabre_compiler/src/lexer/Lexer.cpp"
+#line 624 "/home/lazzy07/projects/sabre_compiler/src/lexer/Lexer.cpp"
 
 	case YY_END_OF_BUFFER:
 		{
@@ -1580,7 +1581,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 14 "/home/lazzy07/projects/sabre_compiler/src/lexer/Lexer.l"
+#line 15 "/home/lazzy07/projects/sabre_compiler/src/lexer/Lexer.l"
 
 
 int yywrap(void) { return 1; };

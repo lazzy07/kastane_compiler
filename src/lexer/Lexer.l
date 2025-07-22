@@ -6,6 +6,7 @@
 %option noyywrap
 
 %%
+
 hello           { printf("Hello found!\n"); };
 [ \t\n]+        ; // skip whitespace
 <<EOF>>         { printf("EOF\n"); };
