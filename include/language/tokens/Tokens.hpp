@@ -1,0 +1,51 @@
+namespace Sabre{
+  namespace Lang{
+    enum Tokens{
+      TOK_EOF,
+
+      KEYWORD_TYPE,
+      KEYWORD_ENTITY,
+      KEYWORD_PROPERTY,
+      KEYWORD_ACTION,
+      KEYWORD_TRIGGER,
+
+      FUN_KEYWORD_PRECONDITION,
+      FUN_KEYWORD_EFFECT,
+      FUN_KEYWORD_CONSENTING,
+      FUN_KEYWORD_OBSERVING,
+
+      KEYWORD_DATATYPE_NUMBER,
+      KEYWORD_DATATYPE_BOOLEAN,
+      
+      KEYWORD_IF,
+      KEYWORD_ELSE,
+
+      NUMBER,
+      IDENTIFIER,
+      UNKNOWN_VALUE,
+
+      OP_BINARY_EQUAL,
+      OP_BINARY_NOT_EQUAL,
+      OP_BINARY_ASSIGN,
+      OP_UNARY_NOT,
+      OP_BINARY_OR,
+      OP_BINARY_AND,
+
+      OP_BINARY_PLUS,
+      OP_BINARY_MINUS,
+      OP_BINARY_MULTI,
+      OP_BINARY_DIV,
+
+      START_BRACKET,
+      END_BRACKET,
+      START_CUR_BRACES,
+      END_CUR_BRACES,
+
+      SEMICOLON,
+      COLON,
+      COMMA,
+
+      ERROR
+    };
+  }
+}
